@@ -1,0 +1,16 @@
+[package]
+name = "priv-keyhunt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+num-bigint = "0.4"
+num-traits = "0.2"
+bitcoin = "0.27"
+signal-hook = "0.3"
+rand = "0.8"
+num-integer = "0.1"
+indicatif = "0.17"
+rayon = "1.7"
+parking_lot = "0.12" 
